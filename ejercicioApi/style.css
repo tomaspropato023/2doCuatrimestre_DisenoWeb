@@ -1,0 +1,29 @@
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    border: 5px solid black;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    background:linear-gradient(
+        150deg,
+        rgba(255, 201, 2, 1) 0%,
+        rgba(210, 50, 70, 1) 25%,
+        rgba(50, 152, 115, 1) 50%,
+        rgba(2, 22, 255, 1) 75%,
+        rgba(2, 120, 200, 1) 100%
+    );
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-stretch: extra-expanded;
+}
+
+#contenedor {
+    text-align: center;
+}
